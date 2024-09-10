@@ -37,6 +37,6 @@ app.listen(PORT, async () => {
     );
     console.log("🛢️  Connected To Database");
   } catch (error) {
-    console.log("⚠️ Error to connect Database");
+    console.log(`⚠️ Error to connect Database ${error}`);
   }
 });
